@@ -7,14 +7,27 @@
     font-family: Work Sans;
 }
 
-.texts {
+header {
+    background-image: url('./images/banner/banner3.png');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.text-box{
     display: flex;
-    flex-direction: column;
-    width: 525px;
-    position: absolute;
-    top: 216px;
-    right: 230px;
     text-align: right;
+    justify-content: right;
+    align-items: center;
+    padding: 230px 215px 364px;
+}
+
+.texts {
+   display: flex;
+   flex-direction: column;
+   width: 525px
 }
 
 .texts h3{
@@ -46,65 +59,9 @@
     font-size: 20px;
     font-weight: 600;
     line-height: normal;
+    cursor: pointer;
 }
 
-.banner{
-    position: relative;
-    width: 100%;
-    top: 0;
-    z-index: -1;
-}
-
-
-/* @media (max-width: 1550px) {
-    .texts {
-        display: flex;
-        flex-direction: column;
-        width: 525px;
-        position: absolute;
-        top: 216px;
-        right: 190px;
-        text-align: right;
-    }
-
-    .texts h3{
-        color: #FFF;
-        text-align: right;
-        font-size: 35px;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    .texts p {
-        color: #FFF;
-        text-align: right;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 26px;
-        margin-top: 14px;
-        margin-bottom: 5px;
-    }
-
-    .btn-primary {
-        border-radius: 5px;
-        background: #FFF;
-        border: none;
-        padding: 15px 20px;
-    
-        color: #005FAC;
-        text-align: right;
-        font-size: 13px;
-        font-weight: 600;
-        line-height: normal;
-    }
-
-    .banner{
-        position: relative;
-        width: 100%;
-        top: 0;
-        z-index: -1;
-    }
-} */
 
 
 .main {
@@ -146,3 +103,157 @@
 .checkcolor {
     color: #16D887;
 }
+
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.plan-items {
+    display: flex;
+    gap: 140px;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.plan-title {
+    color:#151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.items h3 {
+    color:#151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.items p {
+    color:#737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.watchbg{
+    background-image: url('./images/gradient1.png'), url('./images/watch.png');
+    width: 100%;
+    height: 300px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+.watchtext-box {
+    display: flex;
+    flex-direction: column;
+    margin: 216px 230px;
+}
+
+.watch-text {
+    padding: 60px 230px;
+}
+
+.watch-text .title-text {
+    width: 459px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+
+.footer-bg {
+    background: #151414;
+    width: 100%;
+    margin-top: 130px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: center;
+    gap: 331px;
+    padding: 130px 230px;
+}
+
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p-texts{
+    width: 485px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+
+.sociallinks {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-titlesecond{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.formconfig{
+    display: block;
+}
+
+
+.emailbox{
+    width: 325px;
+    height: 44px;
+    padding: 21px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.btn-secondary {
+    border-radius: 5px;
+    background: #005FAC;
+    border: none;
+    padding: 21px 26px;
+
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
